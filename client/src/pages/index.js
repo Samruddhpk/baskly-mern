@@ -1,0 +1,13 @@
+export { default as About } from "./About";
+export { default as AddProduct } from "./AddProduct";
+export { default as Contact } from "./Contact";
+export { default as Dashboard } from "./Dashboard";
+export { default as EditProduct } from "./EditProduct";
+export { default as Error } from "./Error";
+export { default as HomeLayout } from "./HomeLayout";
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as SingleProduct } from "./SingleProduct";
+export { default as Products } from "./Products";
+export { default as Landing } from "./Landing";
+export { default as Admin } from "./Admin";

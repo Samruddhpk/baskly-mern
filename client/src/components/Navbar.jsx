@@ -1,6 +1,13 @@
+import NavLinks from "./NavLinks";
+import Wrapper from "../assets/wrappers/Navbar";
+
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <Wrapper>
+            <div className="nav-center">
+                <NavLinks />
+            </div>
+        </Wrapper>
     );
 };
 export default Navbar;

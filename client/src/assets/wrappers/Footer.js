@@ -3,16 +3,13 @@ import styled from "styled-components";
 
 const Wrapper = styled.footer`
 background-color: var(--black);
-padding: 3rem;
-.footer-center{
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
+padding:  1rem;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
 ul{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: none;
 }
 a{
     color: var(--white);
@@ -22,6 +19,23 @@ a:hover{
 }
 h5{
     color: var(--grey-50);
+}
+
+
+@media screen and (min-width: 768px){
+position: relative;
+padding: 3rem;
+.footer-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+}
+    
 }
 `;
 

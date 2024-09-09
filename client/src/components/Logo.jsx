@@ -1,6 +1,8 @@
 const Logo = () => {
     return (
-        <div>Logo</div>
+        <div>
+            <h3>Baskify</h3>
+        </div>
     );
 };
 export default Logo;
